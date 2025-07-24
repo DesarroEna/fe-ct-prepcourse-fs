@@ -8,4 +8,21 @@ function esImpar(num) {
   // Tu código:
 }
 
+function esImpar(num) {
+  if (num % 2 !== 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(esImpar(14));
+console.log(esImpar(15));
+console.log(esImpar(0));
+console.log(esImpar(-2));
+console.log(esImpar(-3));
+console.log(esImpar(100));
+
 module.exports = esImpar;
+
+

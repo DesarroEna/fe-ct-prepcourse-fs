@@ -5,6 +5,16 @@ function areaDelTriangulo(base, altura) {
   // 10, 5 ---> 25
   // 0, 10 ---> 0
   // Tu código:
+
+  return (base * altura) / 2;
+
 }
+
+console.log(areaDelTriangulo(10, 5));
+console.log(areaDelTriangulo(0, 10));
+console.log(areaDelTriangulo(6, 4));
+console.log(areaDelTriangulo(7.5, 3));
+
+
 
 module.exports = areaDelTriangulo;

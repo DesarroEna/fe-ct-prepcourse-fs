@@ -7,4 +7,14 @@ function obtenerResto(x, y) {
   // Tu código:
 }
 
+// 23.js
+
+function obtenerResto(x, y) {
+  return x % y;
+}
+
+console.log(obtenerResto(10, 5));
+console.log(obtenerResto(16, 5));
+console.log(obtenerResto(7, 3));
+
 module.exports = obtenerResto;

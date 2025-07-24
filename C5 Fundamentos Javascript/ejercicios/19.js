@@ -5,6 +5,16 @@ function suma(x, y) {
   // 5, 5 ---> 10
   // -5, 5 ---> 0
   // Tu código:
+  
+  return x + y;
 }
 
-module.exports = suma; 
+
+console.log(suma(5, 5));
+console.log(suma(-5, 5));
+console.log(suma(10, 15));
+console.log(suma(-3, -7));
+console.log(suma(0, 0));
+console.log(suma(2.5, 3.7));
+
+module.exports = suma;

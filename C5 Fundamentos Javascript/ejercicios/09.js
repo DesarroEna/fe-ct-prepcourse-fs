@@ -10,4 +10,18 @@ function esNuloOIndefinido(valor) {
   // Tu código:
 }
 
+function esNuloOIndefinido(valor) {
+    if (valor === null || valor === undefined)
+      return true;
+      return false;
+}
+
+console.log(esNuloOIndefinido(null));
+console.log(esNuloOIndefinido(undefined));
+console.log(esNuloOIndefinido(34));
+console.log(esNuloOIndefinido(0.32));
+console.log(esNuloOIndefinido("Null"));
+console.log(esNuloOIndefinido("Undefined"));
+
+
 module.exports = esNuloOIndefinido;

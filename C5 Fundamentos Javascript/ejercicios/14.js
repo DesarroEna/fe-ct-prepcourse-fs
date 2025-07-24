@@ -8,4 +8,26 @@ function mayorQueCincuenta(num) {
   // Tu código:
 }
 
+function mayorQueCincuenta (num) {
+
+  if (num > 50) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(mayorQueCincuenta(50));
+console.log(mayorQueCincuenta(91));
+console.log(mayorQueCincuenta(90));
+console.log(mayorQueCincuenta(0));
+console.log(mayorQueCincuenta(-10));
+console.log(mayorQueCincuenta("cien"));
+
+
+
+
+
+
+
 module.exports = mayorQueCincuenta;

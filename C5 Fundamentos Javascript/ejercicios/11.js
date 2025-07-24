@@ -8,4 +8,20 @@ function sonIguales(x, y) {
   // Tu código:
 }
 
+function sonIguales(x, y) {
+  if (x === y) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(sonIguales(5, 5));
+console.log(sonIguales(7, 5));
+console.log(sonIguales("cinco", "cinco"));
+console.log(sonIguales("siete",7));
+console.log(sonIguales(2, 2));
+console.log(sonIguales(23,"23"));
+
+
 module.exports = sonIguales;

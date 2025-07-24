@@ -7,6 +7,16 @@ function elevar(num, exponent) {
   // 2, 2 ---> 4
   // 0, 5 ---> 0
   // Tu código:
+
+  return Math.pow(num, exponent);
+
 }
+
+console.log(elevar(2, 2));
+console.log(elevar(0, 5));
+console.log(elevar(3, 3));
+console.log(elevar(5, 0));
+console.log(elevar(2, -2));
+console.log(elevar(4, 0.5));
 
 module.exports = elevar;

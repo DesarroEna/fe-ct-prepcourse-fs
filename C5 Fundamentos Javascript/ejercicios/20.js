@@ -5,6 +5,17 @@ function resta(x, y) {
   // 10, 5 ---> 5
   // 5, 5 ---> 0
   // Tu código:
+  
+  return x - y;
 }
+
+console.log(resta(10, 5));
+console.log(resta(5, 5));
+console.log(resta(15, 5));
+console.log(resta(5, 10));
+console.log(resta(-3, -7));
+console.log(resta(0, 0));
+console.log(resta(7.5, 2.3));
+
 
 module.exports = resta;
