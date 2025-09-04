@@ -3,8 +3,7 @@ const obtenerValorPropiedad = (objeto, propiedad) => {
    // Devuelve el valor de esta propiedad.
    // Tu código:
    const a = objeto[propiedad];
-
-   return a;
+       return objeto[propiedad];
 };
 
 module.exports = obtenerValorPropiedad;
