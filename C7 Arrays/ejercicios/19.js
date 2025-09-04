@@ -3,6 +3,8 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos retorna 0. Si se pasa un argumento, simplemente retórnalo.
   // [PISTA]: "arguments" es un arreglo.
   // Tu código:
+      if (arguments.length === 0) return 0;
+    return Array.from(arguments).reduce((product, num) => product * num, 1);
 }
 
 module.exports = multiplicarArgumentos;
